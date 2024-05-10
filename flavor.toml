@@ -53,7 +53,7 @@ progress_error  = { fg = "#f7768e", bg = "#414868" }  # Red on Darkened black
 
 # Permissions
 permissions_t = { fg = "#7aa2f7" }  # Blue
-permissions_r = { fg = "##9ece6a" }  # Green
+permissions_r = { fg = "#9ece6a" }  # Green
 permissions_w = { fg = "#e0af68" }  # Yellow
 permissions_x = { fg = "#f7768e" }  # Red
 permissions_s = { fg = "#bb9af7" }  # Magenta
