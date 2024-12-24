@@ -41,25 +41,31 @@ separator_open  = ""
 separator_close = ""
 separator_style = { fg = "#7aa2f7", bg = "#414868" }  # Blue on Darkened black
 
-# Mode
-mode_normal = { fg = "#414868", bg = "#7aa2f7", bold = true }  # Darkened black on Blue
-mode_select = { fg = "#414868", bg = "#9ece6a", bold = true }  # Darkened black on Green
-mode_unset  = { fg = "#414868", bg = "#bb9af7", bold = true }  # Darkened black on Magenta
-
 # Progress
 progress_label  = { fg = "#a9b1d6", bold = true }  # White
 progress_normal = { fg = "#7aa2f7", bg = "#414868" }  # Blue on Darkened black
 progress_error  = { fg = "#f7768e", bg = "#414868" }  # Red on Darkened black
 
 # Permissions
-permissions_t = { fg = "#7aa2f7" }  # Blue
-permissions_r = { fg = "#9ece6a" }  # Green
-permissions_w = { fg = "#e0af68" }  # Yellow
-permissions_x = { fg = "#f7768e" }  # Red
-permissions_s = { fg = "#bb9af7" }  # Magenta
+perm_type = { fg = "#7aa2f7" }  # Blue
+perm_read = { fg = "#9ece6a" }  # Green
+perm_write = { fg = "#e0af68" }  # Yellow
+perm_exec = { fg = "#f7768e" }  # Red
+perm_sep = { fg = "#bb9af7" }  # Magenta
 
 # : }}}
 
+# : Mode {{{
+
+[mode]
+normal_main = { fg = "#414868", bg = "#7aa2f7", bold = true }
+normal_alt = { fg = "#414868", bg = "#7aa2f7", bold = true }
+select_main = { fg = "#414868", bg = "#9ece6a", bold = true }
+select_alt = { fg = "#414868", bg = "#9ece6a", bold = true }
+unset_main  = { fg = "#414868", bg = "#bb9af7", bold = true }
+unset_alt  = { fg = "#414868", bg = "#bb9af7", bold = true }
+
+# : }}}
 
 # : Select {{{
 
