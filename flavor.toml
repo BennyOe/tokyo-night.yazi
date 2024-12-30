@@ -74,30 +74,6 @@ perm_read  = { fg = "#e0af68" }  # Yellow
 perm_write = { fg = "#f7768e" }  # Red
 perm_exec  = { fg = "#bb9af7" }  # Magenta
 
-# TODO: -- remove these once Yazi 0.4 gets released
-separator_style = { fg = "#7aa2f7", bg = "#414868" }  # Blue on Darkened black
-mode_normal = { fg = "#414868", bg = "#7aa2f7", bold = true }  # Darkened black on Blue
-mode_select = { fg = "#414868", bg = "#9ece6a", bold = true }  # Darkened black on Green
-mode_unset  = { fg = "#414868", bg = "#bb9af7", bold = true }  # Darkened black on Magenta
-permissions_t = { fg = "#7aa2f7" }  # Blue
-permissions_r = { fg = "#9ece6a" }  # Green
-permissions_w = { fg = "#e0af68" }  # Yellow
-permissions_x = { fg = "#f7768e" }  # Red
-permissions_s = { fg = "#bb9af7" }  # Magenta
-# TODO: remove these once Yazi 0.4 gets released --
-
-# : }}}
-
-# : Mode {{{
-
-[mode]
-normal_main = { fg = "#414868", bg = "#7aa2f7", bold = true }  # Darkened black on Blue
-normal_alt  = { fg = "#7aa2f7", bg = "#414868", bold = true }  # Darkened black on Blue
-select_main = { fg = "#414868", bg = "#9ece6a", bold = true }  # Darkened black on Green
-select_alt  = { fg = "#9ece6a", bg = "#414868", bold = true }  # Darkened black on Green
-unset_main  = { fg = "#414868", bg = "#bb9af7", bold = true }  # Darkened black on Magenta
-unset_alt   = { fg = "#bb9af7", bg = "#414868", bold = true }  # Darkened black on Magenta
-
 # : }}}
 
 # : Pick {{{
