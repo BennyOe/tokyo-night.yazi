@@ -84,13 +84,6 @@ border = { fg = "#7aa2f7" }  # Blue
 active = { fg = "#bb9af7", bold = true }  # Magenta
 inactive = {}
 
-# TODO: -- remove these once Yazi 0.4 gets released
-[select]
-border = { fg = "#7aa2f7" }  # Blue
-active = { fg = "#bb9af7", bold = true }  # Magenta
-inactive = {}
-# TODO: remove these once Yazi 0.4 gets released --
-
 # : }}}
 
 
