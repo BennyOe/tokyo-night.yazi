@@ -59,7 +59,7 @@ unset_alt  = { fg = "#7aa2f7", bg = "#414868" }  # Blue on Darkened black
 [status]
 separator_open  = ""
 separator_close = ""
-separator_style = { fg = "#7aa2f7", bg = "#414868" }  # Blue on Darkened black
+separator_style = { fg = "#414868", bg = "#414868" }  # Blue on Darkened black
 
 
 # Progress
@@ -78,7 +78,7 @@ perm_exec  = { fg = "#bb9af7" }  # Magenta
 # : }}}
 
 # : Pick {{{
-	
+
 [pick]
 border = { fg = "#7aa2f7" }  # Blue
 active = { fg = "#bb9af7", bold = true }  # Magenta
