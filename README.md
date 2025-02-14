@@ -12,9 +12,13 @@
 
 ## 🎨 Installation
 
+### Using package manager
+
 ```bash
 ya pack -a BennyOe/tokyo-night
 ```
+
+### Manual install
 
 ```bash
 # Linux/macOS
