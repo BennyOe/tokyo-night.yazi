@@ -135,7 +135,7 @@ separator_style = { fg = "#626880" }  # Darkened gray
 on      = { fg = "#9ece6a" }  # Green
 run     = { fg = "#bb9af7" }  # Magenta
 hovered = { reversed = true, bold = true }
-footer  = { fg = "#a9b1d6", bg = "#c6d0f5" }  # White on Light gray
+footer  = { fg = "#1a1b26", bg = "#c6d0f5" }  # White on Light gray
 
 # : }}}
 
