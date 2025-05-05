@@ -63,9 +63,9 @@ separator_style = { fg = "#414868", bg = "#414868" }  # Blue on Darkened black
 
 
 # Progress
-progress_label  = { fg = "#a9b1d6", bold = true }  # White
-progress_normal = { fg = "#7aa2f7", bg = "#414868" }  # Blue on Darkened black
-progress_error  = { fg = "#f7768e", bg = "#414868" }  # Red on Darkened black
+progress_label = { fg = "#1a1b26", bold = true }
+progress_normal = { fg = "#7aa2f7", bg = "#292e42" }
+progress_error = { fg = "#f7768e", bg = "#292e42" }
 
 # Permissions
 perm_sep   = { fg = "#7aa2f7" }  # Blue
@@ -135,7 +135,7 @@ separator_style = { fg = "#626880" }  # Darkened gray
 on      = { fg = "#9ece6a" }  # Green
 run     = { fg = "#bb9af7" }  # Magenta
 hovered = { reversed = true, bold = true }
-footer  = { fg = "#a9b1d6", bg = "#c6d0f5" }  # White on Light gray
+footer  = { fg = "#1a1b26", bg = "#c6d0f5" }  # White on Light gray
 
 # : }}}
 
