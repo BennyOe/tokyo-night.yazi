@@ -15,7 +15,7 @@
 ### Using package manager
 
 ```bash
-ya pack -a BennyOe/tokyo-night
+ya pkg add BennyOe/tokyo-night
 ```
 
 ### Manual install
