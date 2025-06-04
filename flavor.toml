@@ -61,9 +61,9 @@ unset_alt  = { fg = "#7aa2f7", bg = "#414868" }  # Blue on Darkened black
 # : Status bar {{{
 
 [status]
+overall = { fg = "#7aa2f7" }
 sep_left  = { open = "", close = "" }
 sep_right = { open = "", close = "" }
-separator_style = { fg = "#414868", bg = "#414868" }  # Blue on Darkened black
 
 
 # Progress
