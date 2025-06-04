@@ -176,10 +176,11 @@ rules = [
 	{ mime = "application/x-xz",            fg = "#bb9af7" },  # Magenta
 
 	# Documents
-	{ mime = "application/doc",   fg = "#9ece6a" },  # Green
-	{ mime = "application/pdf",   fg = "#9ece6a" },  # Green
-	{ mime = "application/rtf",   fg = "#9ece6a" },  # Green
-	{ mime = "application/vnd.*", fg = "#9ece6a" },  # Green
+	{ mime = "application/doc",        fg = "#9ece6a" },  # Green
+	{ mime = "application/epub+zip",   fg = "#9ece6a" },  # Green
+	{ mime = "application/pdf",        fg = "#9ece6a" },  # Green
+	{ mime = "application/rtf",        fg = "#9ece6a" },  # Green
+	{ mime = "application/vnd.*",      fg = "#9ece6a" },  # Green
 
 	# Fallback
 	{ name = "*", fg = "#c6d0f5" },  # Light gray
