@@ -34,8 +34,8 @@ border_style  = { fg = "#414868" }  # Darkened black
 # : Tabs {{{
 
 [tabs]
-active   = { fg = "#7aa2f7", bg = "#282C34", bold = true }
-inactive = { fg = "#282C34", bg = "#7aa2f7" }
+active   = { fg = "#292e42", bg = "#7aa2f7", bold = true }
+inactive = { fg = "#7aa2f7", bg = "#292e42" }
 
 # : }}}
 
