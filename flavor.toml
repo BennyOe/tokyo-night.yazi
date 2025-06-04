@@ -2,7 +2,7 @@
 
 # : Manager {{{
 
-[manager]
+[mgr]
 cwd = { fg = "#7aa2f7" }  # Blue
 
 # Hovered
@@ -19,11 +19,6 @@ marker_cut      = { fg = "#e0af68", bg = "#f7768e" }  # Red
 marker_marked   = { fg = "#7aa2f7", bg = "#7dcfff" }  # Cyan
 marker_selected = { fg = "#e0af68", bg = "#e0af68" }  # Yellow
 
-# Tab
-tab_active = { bg = "#282C34", fg = "#7aa2f7" }  # Darkened background, Blue text
-tab_inactive = {}
-tab_width    = 1
-
 # Count
 count_copied   = { fg = "#414868", bg = "#9ece6a" }  # Darkened black on Green
 count_cut      = { fg = "#414868", bg = "#e0af68" }  # Darkened black on Yellow
@@ -32,6 +27,15 @@ count_selected = { fg = "#414868", bg = "#7aa2f7" }  # Darkened black on Blue
 # Border
 border_symbol = "│"
 border_style  = { fg = "#414868" }  # Darkened black
+
+# : }}}
+
+
+# : Tabs {{{
+
+[tabs]
+active   = { fg = "#292e42", bg = "#7aa2f7", bold = true }
+inactive = { fg = "#7aa2f7", bg = "#292e42" }
 
 # : }}}
 
@@ -57,9 +61,9 @@ unset_alt  = { fg = "#7aa2f7", bg = "#414868" }  # Blue on Darkened black
 # : Status bar {{{
 
 [status]
+overall = { fg = "#7aa2f7" }
 sep_left  = { open = "", close = "" }
 sep_right = { open = "", close = "" }
-separator_style = { fg = "#414868", bg = "#414868" }  # Blue on Darkened black
 
 
 # Progress
@@ -172,10 +176,11 @@ rules = [
 	{ mime = "application/x-xz",            fg = "#bb9af7" },  # Magenta
 
 	# Documents
-	{ mime = "application/doc",   fg = "#9ece6a" },  # Green
-	{ mime = "application/pdf",   fg = "#9ece6a" },  # Green
-	{ mime = "application/rtf",   fg = "#9ece6a" },  # Green
-	{ mime = "application/vnd.*", fg = "#9ece6a" },  # Green
+	{ mime = "application/doc",        fg = "#9ece6a" },  # Green
+	{ mime = "application/epub+zip",   fg = "#9ece6a" },  # Green
+	{ mime = "application/pdf",        fg = "#9ece6a" },  # Green
+	{ mime = "application/rtf",        fg = "#9ece6a" },  # Green
+	{ mime = "application/vnd.*",      fg = "#9ece6a" },  # Green
 
 	# Fallback
 	{ name = "*", fg = "#c6d0f5" },  # Light gray
