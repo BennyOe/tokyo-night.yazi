@@ -139,7 +139,7 @@ separator_style = { fg = "#626880" }
 on      = { fg = "#9ece6a" }
 run     = { fg = "#bb9af7" }
 hovered = { reversed = true, bold = true }
-footer  = { fg = "#1a1b26", bg = "#7aa2f7" }
+footer  = { fg = "#1a1b26", bg = "#a9b1d6" }
 
 # : }}}
 
