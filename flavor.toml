@@ -5,10 +5,6 @@
 [mgr]
 cwd = { fg = "#7aa2f7" }
 
-# Hovered
-hovered         = { reversed = true }
-preview_hovered = { underline = true }
-
 # Find
 find_keyword  = { fg = "#f7768e", bold = true, italic = true, underline = true }
 find_position = { fg = "#bb9af7", bg = "reset", bold = true, italic = true }
@@ -183,8 +179,8 @@ rules = [
 	{ mime = "application/vnd.*",      fg = "#9ece6a" },
 
 	# Fallback
-	{ name = "*", fg = "#c6d0f5" },
-	{ name = "*/", fg = "#7aa2f7" }
+	{ url = "*", fg = "#c6d0f5" },
+	{ url = "*/", fg = "#7aa2f7" },
 ]
 
 # : }}}
