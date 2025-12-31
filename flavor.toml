@@ -189,6 +189,10 @@ rules = [
 	{ mime = "application/rtf",        fg = "#9ece6a" },
 	{ mime = "application/vnd.*",      fg = "#9ece6a" },
 
+  # Special files
+  { mime = "*", is = "orphan", fg = "#f29cb4", bg = "#93000a" },
+  { mime = "application/*exec*", fg = "#f7768e" },
+
 	# Fallback
 	{ url = "*", fg = "#c6d0f5" },
 	{ url = "*/", fg = "#7aa2f7" },
